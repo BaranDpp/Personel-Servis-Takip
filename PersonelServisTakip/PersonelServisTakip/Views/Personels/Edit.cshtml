@@ -1,0 +1,55 @@
+﻿@model PersonelServisTakip.Models.Entity.Personel
+
+@{
+    ViewData["Title"] = "Create/Edit Personnel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="display-4 text-center">@ViewData["Title"]</h1>
+    <div class="card mt-4 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title">Personnel Details</h4>
+            <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <div class="form-group">
+                    <label asp-for="Name" class="form-label">Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="PhotoFile" class="form-label">Photo</label>
+                    <input asp-for="PhotoFile" type="file" class="form-control" />
+                    <span asp-validation-for="PhotoFile" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="ServiceVehicleId" class="form-label">Service Vehicle</label>
+                    <select asp-for="ServiceVehicleId" class="form-control" asp-items="ViewBag.ServiceVehicleId"></select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="DepartmentId" class="form-label">Department</label>
+                    <select asp-for="DepartmentId" class="form-control" asp-items="ViewBag.DepartmentId"></select>
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4 text-center">
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

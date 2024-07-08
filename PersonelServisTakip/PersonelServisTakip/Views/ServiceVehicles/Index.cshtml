@@ -1,0 +1,38 @@
+﻿@model IEnumerable<PersonelServisTakip.Models.Entity.ServiceVehicle>
+
+@{
+    ViewData["Title"] = "Service Vehicles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="display-4 text-center">@ViewData["Title"]</h1>
+    <div class="text-right mb-3">
+        <a asp-action="Create" class="btn btn-primary">Create New Vehicle</a>
+    </div>
+    <table class="table table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.First().VehicleNumber)</th>
+                <th>@Html.DisplayNameFor(model => model.First().DriverName)</th>
+                <th>@Html.DisplayNameFor(model => model.First().ServiceDate)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.VehicleNumber)</td>
+                    <td>@Html.DisplayFor(modelItem => item.DriverName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ServiceDate)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

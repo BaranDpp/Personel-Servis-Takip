@@ -1,0 +1,51 @@
+﻿@model PersonelServisTakip.Models.Entity.PersonelTask
+
+@{
+    ViewData["Title"] = "Task Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="display-4 text-center">@ViewData["Title"]</h1>
+    <div class="card mt-4 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title">Task Information</h4>
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.Title)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Title)
+                </dd>
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.AssignedDate)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.AssignedDate)
+                </dd>
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.DueDate)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.DueDate)
+                </dd>
+                <dt class="col-sm-3 font-weight-bold">
+                    Personnel
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Personel.Name)
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="mt-4 text-center">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+    </div>
+</div>

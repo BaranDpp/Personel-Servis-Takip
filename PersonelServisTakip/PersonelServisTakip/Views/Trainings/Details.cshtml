@@ -1,0 +1,39 @@
+﻿@model PersonelServisTakip.Models.Entity.Training
+
+@{
+    ViewData["Title"] = "Training Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="display-4 text-center">@ViewData["Title"]</h1>
+    <div class="card mt-4 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title">Training Information</h4>
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.Title)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Title)
+                </dd>
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.TrainingDate)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.TrainingDate)
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="mt-4 text-center">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+    </div>
+</div>

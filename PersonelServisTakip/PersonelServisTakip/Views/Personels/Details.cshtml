@@ -1,0 +1,52 @@
+﻿@model PersonelServisTakip.Models.Entity.Personel
+
+@{
+    ViewData["Title"] = "Personnel Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="display-4 text-center">@ViewData["Title"]</h1>
+    <div class="card mt-4 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title">Personnel Information</h4>
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.Photo)
+                </dt>
+                <dd class="col-sm-9">
+                    @if (Model.Photo != null && Model.Photo.Length > 0)
+                    {
+                        <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Photo)" class="img-thumbnail" alt="Personnel Photo" />
+                    }
+                    else
+                    {
+                        <span>No photo available</span>
+                    }
+                </dd>
+                <dt class="col-sm-3 font-weight-bold">
+                    Service Vehicle
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.ServiceVehicle.VehicleNumber)
+                </dd>
+                <dt class="col-sm-3 font-weight-bold">
+                    Department
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Department.Name)
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="mt-4 text-center">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+    </div>
+</div>

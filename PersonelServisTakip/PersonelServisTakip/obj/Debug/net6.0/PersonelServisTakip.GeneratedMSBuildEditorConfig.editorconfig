@@ -1,0 +1,191 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PersonelServisTakip
+build_property.RootNamespace = PersonelServisTakip
+build_property.ProjectDir = C:\Users\emre_\OneDrive\Masaüstü\PersonelServisTakip\PersonelServisTakip\PersonelServisTakip\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\emre_\OneDrive\Masaüstü\PersonelServisTakip\PersonelServisTakip\PersonelServisTakip
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Departments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Departments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Departments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Departments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Departments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Leaves/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Leaves/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Leaves/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Leaves/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Leaves/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/PerformanceReviews/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZm9ybWFuY2VSZXZpZXdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/PerformanceReviews/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZm9ybWFuY2VSZXZpZXdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/PerformanceReviews/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZm9ybWFuY2VSZXZpZXdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/PerformanceReviews/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZm9ybWFuY2VSZXZpZXdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/PerformanceReviews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZm9ybWFuY2VSZXZpZXdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Personels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Personels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Personels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Personels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Personels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/PersonelTasks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxUYXNrc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/PersonelTasks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxUYXNrc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/PersonelTasks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxUYXNrc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/PersonelTasks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxUYXNrc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/PersonelTasks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxUYXNrc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/ServiceVehicles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVZlaGljbGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/ServiceVehicles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVZlaGljbGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/ServiceVehicles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVZlaGljbGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/ServiceVehicles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVZlaGljbGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/ServiceVehicles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVZlaGljbGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Trainings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5pbmdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Trainings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5pbmdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Trainings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5pbmdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Trainings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5pbmdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Trainings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5pbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/OneDrive/Masaüstü/PersonelServisTakip/PersonelServisTakip/PersonelServisTakip/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ta24bqni42

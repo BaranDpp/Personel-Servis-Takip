@@ -1,0 +1,40 @@
+﻿@model IEnumerable<PersonelServisTakip.Models.Entity.PerformanceReview>
+
+@{
+    ViewData["Title"] = "Performance Reviews";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="display-4 text-center">Performance Reviews</h1>
+    <div class="text-right mb-3">
+        <a asp-action="Create" class="btn btn-primary">Create New Review</a>
+    </div>
+    <table class="table table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.First().ReviewDate)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Comments)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Rating)</th>
+                <th>Personnel</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.ReviewDate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Comments)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Rating)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Personel.Name)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

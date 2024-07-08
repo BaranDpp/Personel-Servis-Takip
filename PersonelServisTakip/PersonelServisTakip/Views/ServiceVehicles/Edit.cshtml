@@ -1,0 +1,52 @@
+﻿@model PersonelServisTakip.Models.Entity.ServiceVehicle
+
+@{
+    ViewData["Title"] = "Edit Service Vehicle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="display-4 text-center">@ViewData["Title"]</h1>
+    <div class="card mt-4 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title">Service Vehicle Details</h4>
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                <input type="hidden" asp-for="Id" />
+
+                <div class="form-group">
+                    <label asp-for="VehicleNumber" class="form-label">Vehicle Number</label>
+                    <input asp-for="VehicleNumber" class="form-control" placeholder="Enter vehicle number" />
+                    <span asp-validation-for="VehicleNumber" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="DriverName" class="form-label">Driver Name</label>
+                    <input asp-for="DriverName" class="form-control" placeholder="Enter driver name" />
+                    <span asp-validation-for="DriverName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="ServiceDate" class="form-label">Service Date</label>
+                    <input asp-for="ServiceDate" class="form-control" placeholder="Enter service date" />
+                    <span asp-validation-for="ServiceDate" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4 text-center">
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

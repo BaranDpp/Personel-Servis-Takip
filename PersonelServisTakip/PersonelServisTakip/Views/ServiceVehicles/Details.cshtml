@@ -1,0 +1,39 @@
+﻿@model PersonelServisTakip.Models.Entity.ServiceVehicle
+
+@{
+    ViewData["Title"] = "Service Vehicle Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="display-4 text-center">@ViewData["Title"]</h1>
+    <div class="card mt-4 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title">Service Vehicle Information</h4>
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.VehicleNumber)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.VehicleNumber)
+                </dd>
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.DriverName)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.DriverName)
+                </dd>
+                <dt class="col-sm-3 font-weight-bold">
+                    @Html.DisplayNameFor(model => model.ServiceDate)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.ServiceDate)
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="mt-4 text-center">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+    </div>
+</div>
